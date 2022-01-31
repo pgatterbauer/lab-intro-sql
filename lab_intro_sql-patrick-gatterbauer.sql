@@ -7,20 +7,20 @@ show tables;
 describe actor;
 
 -- list all columns and rows from actor
-select * from actor;
+SELECT * FROM actor;
 
 -- list all columns and rows from film
-select * from film;
+SELECT * FROM film;
 
 -- list all columns and rows from customer
-select * from customer;
+SELECT * FROM customer;
 
 -- list all valaues from the column title in the table film
-select title
-from film;
+SELECT title
+FROM film;
 
 -- Get unique list of film language names with distinct in table `language`
-select distinct name from language;
+SELECT DISTINCT name FROM language;
 
 -- get all language names + language count
 SELECT name, count(name) AS CountOf
